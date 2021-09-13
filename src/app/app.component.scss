@@ -1,0 +1,123 @@
+.bg {
+    width: 100vw;
+    height: 100vh;
+}
+
+.resume {
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    text-align: center;
+}
+
+figcaption {
+    color: black;
+    font-family: 'Family "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;';
+    font-size: 0.89rem;
+    color: black;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.menu {
+    position: absolute;
+    top: 54vh;
+    left: 30vw;
+    width: 40vw;
+    height: 40vh;
+    background-color: white;
+    opacity: 95%;
+    visibility: hidden;
+    transition:visibility 0.1s ease-in,opacity 0.1s ease-out;
+
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    padding: 0em;
+    margin: 0em;
+}
+
+.icons {
+    text-align: center;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.navbar {
+    all: initial;
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+.windows-task {
+    display: flex;
+    justify-content: center;
+}
+
+.windows-task img {
+  margin: 5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh;
+}
+
+.info {
+    padding-top: 3vh;
+}
+
+.skills {
+    padding-left: 2vh;
+}
+
+.mob {
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .menu {
+        text-align: center;
+    }
+
+    header {
+        display: block;
+    }
+
+    header img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+    }
+
+    .menu h3 {
+        font-size: 4vw;
+    }
+    .menu p {
+        font-size: 2vw;
+    }
+
+    .mob {
+        display: block;
+    }
+
+    .des {
+        display: none;
+    }
+
+  }
